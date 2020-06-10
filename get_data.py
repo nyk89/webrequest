@@ -26,7 +26,8 @@ students = parsed_response3["students"]
 for x in students:
     grades.append(x["finalGrade"])
 
-print(min(grades))
-print(max(grades))
+print("MIN:", min(grades))
+print("MAX:", max(grades))
+
 
 
